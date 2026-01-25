@@ -100,9 +100,9 @@ EMAIL_SEND_TO=johnnyappleseed@examplemail.com
 
 **Note:** Replace the above dummy data e.g., `johndoe@examplemail.com` with your real data, e.g., email account credentials. Check with your email provider and/or the [Nodemailer Docs](https://nodemailer.com/usage/using-gmail) for instructions on how to obtain your email credentials (hint: the fastest method is to use [Gmail](http://gmail.com)).
 
-4. If necessary, rebuild or restart the project within your remote cloud service.
+3. If necessary, rebuild or restart the project within your remote cloud service.
 
-5. Your project should now be running at the URLs provided by your remote cloud service, and the following should be displayed in the terminal output: 
+4. Your project should now be running at the URLs provided by your remote cloud service, and the following should be displayed in the terminal output: 
 
 ```
 Data server running at http://localhost:3000
@@ -117,9 +117,9 @@ Northern 7 socket data server running at http://localhost:3007
 
 **Note:** the above URLs and/or port numbers will not be correct. To find the correct base URLs, refer to your remote cloud service's dashboard.
 
-6. The application will now be running, and any errors encountered will be displayed in the terminal of your remote cloud service. 
+5. The application will now be running, and any errors encountered will be displayed in the terminal of your remote cloud service. 
 
-7. To stop the application running, enter the key command: `ctrl+c` in the terminal of your cloud service, or press the relevant shut down button. 
+6. To stop the application running, enter the key command: `ctrl+c` in the terminal of your cloud service, or press the relevant shut down button. 
 
 **Note:** Some services, such as Render, will automatically rebuild the project upon a new commit being made to the GitHub repository: please consult the relevant documentation to deactivate this feature, if desired.
 
